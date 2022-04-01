@@ -95,14 +95,14 @@ const syncCallsToServer = (msg1, msg2) => {
         .then(data2 => console.log(data2));
     })
 }
-syncCallsToServer("surya", "surya again");
+syncCallsToServer("surya", "suryaagain");
 //ex15
 const afunction = async (msg) => {
   const response = await fakeFetch(msg, false);
   console.log(response);
 
 }
-afunction("surya async");
+afunction("suryaasync");
 //ex16
 const waterfall = async (msg1, msg2) => {
   try {
