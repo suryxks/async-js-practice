@@ -117,4 +117,4 @@ const waterfall = async (msg1, msg2) => {
     console.log(err)
   }
 }
-waterfall("surya","surya again");
+waterfall("surya","suryaagain");
